@@ -7,7 +7,7 @@ from board_state.state_space_generator import *
 
 class Minimax:
 
-    def __init__(self, max_depth=5):
+    def __init__(self, max_depth=3):
         self.max_depth = max_depth
         self.pruned = 0
 
